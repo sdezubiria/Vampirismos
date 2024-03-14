@@ -178,5 +178,23 @@ p {
 }
 a{
   text-decoration: none;
-  
+
 }
+@media (max-width: 1250px) {
+  h2{
+    
+      display: flex;
+      text-align: center;
+      margin: 0;
+      color: red;
+      font-family: "Space Mono", monospace;
+      font-weight: 10;
+      font-style: normal;
+      font-size: 0.8rem;
+      transition: 0.3s;
+  }
+    h2:hover{
+      font-size: 1rem;
+    }
+  }
+
